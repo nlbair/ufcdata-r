@@ -1,7 +1,7 @@
 Package: ufcdata
 Type: Package
 Title: Load the UFC Data Dataset
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: person("Noah", "Bair", email = "nlbair@users.noreply.github.com", role = c("aut", "cre"))
 Description: Loads the UFC Data dataset of UFC fights, judges' round-by-round
     scorecards, round statistics, betting odds, and rankings. Downloads the

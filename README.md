@@ -39,8 +39,8 @@ All functions start with `ufc_`, so they will not mask other packages.
 
 | Function | Returns |
 | --- | --- |
-| `ufc_load_fights(decisions_only = FALSE)` | One row per fight, 495 columns |
-| `ufc_load_judge_rounds()` | One row per judge per round, 69 columns |
+| `ufc_load_fights(decisions_only = FALSE)` | One row per fight, newest first, 496 columns |
+| `ufc_load_judge_rounds()` | One row per judge per round, newest first, 69 columns |
 | `ufc_load_crosswalk()` | Source IDs and match quality for each fight |
 | `ufc_load_judges()` | Judges by MMA Decisions ID |
 | `ufc_load_jurisdictions()` | Event location to jurisdiction table |
@@ -66,7 +66,7 @@ All functions start with `ufc_`, so they will not mask other packages.
 
 ## Data versions
 
-By default the package uses version 0.1.0 of the data. Use `ufc_use_version("latest")` for the newest, or a version number to pin an analysis to a release.
+By default the package uses version 0.1.1 of the data. Use `ufc_use_version("latest")` for the newest, or a version number to pin an analysis to a release.
 
 ## Working offline
 

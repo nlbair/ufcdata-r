@@ -1,10 +1,10 @@
 .ufc <- new.env(parent = emptyenv())
-.ufc$version <- "0.1.0"
+.ufc$version <- "0.1.1"
 .ufc$data_dir <- NULL
 .ufc$sums <- NULL
 
 ufc_config <- list(
-  package_version = "0.1.0",
+  package_version = "0.1.1",
   data_doi = "10.5281/zenodo.23458636",
   base_url = "https://raw.githubusercontent.com/nlbair/ufc-data",
   title = "UFC Data: scorecards, round statistics, and betting odds, 2013 to 2026",
