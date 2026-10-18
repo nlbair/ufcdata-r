@@ -1,0 +1,17 @@
+Package: ufcdata
+Type: Package
+Title: Load the UFC Data Dataset
+Version: 0.1.0
+Authors@R: person("Noah", "Bair", email = "nlbair@users.noreply.github.com", role = c("aut", "cre"))
+Description: Loads the UFC Data dataset of UFC fights, judges' round-by-round
+    scorecards, round statistics, betting odds, and rankings. Downloads the
+    published files once, checks their checksums, and keeps a copy on your
+    computer. Includes a codebook lookup and helpers for betting odds. This
+    project is independent and is not affiliated with the UFC.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 4.0.0)
+Imports: digest, tools, utils
+Suggests: arrow, readr
+URL: https://github.com/nlbair/ufcdata-r
+BugReports: https://github.com/nlbair/ufcdata-r/issues
